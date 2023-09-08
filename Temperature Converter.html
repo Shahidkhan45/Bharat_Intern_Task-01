@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Temperature Converter Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Temperature Converter.css">
+</head>
+<body>
+    <header>
+        <h1>Temperature Converter</h1>
+    </header>
+
+    <main>
+        <div class="celsius">
+            <label for="celsius"><b>Celsius:</b></label>
+            <input type="number" id="celsius" placeholder="Enter temperature in Celsius" step="0.01">
+            <button id="convertCtoF"><b>Convert to Fahrenheit</b></button>
+            <p id="resultCtoF"></p>
+        </div>
+    
+        <div class="fahrenheit">
+            <label for="fahrenheit"><b>Fahrenheit:</b></label>
+            <input type="number" id="fahrenheit" placeholder="Enter temperature in Fahrenheit" step="0.01">
+            <button id="convertFtoC"><b>Convert to Celsius</b></button>
+            <p id="resultFtoC"></p>
+        </div>
+
+        <div class="kelvin">
+          <label for="kelvin"><b>Kelvin:</b></label>
+          <input type="number" id="kelvin" placeholder="Enter temperature in Kelvin" step="0.01">
+          <button id="convertKtoF"><b>Convert to Fahrenheit</b></button>
+          <p id="resultKtoF"></p>
+      </div>
+    </main>
+    <script src="Temperature Converter.js"></script>
+
+    <div class="footer"><p>Bharat Intern © 2023 Temperature Converter All Rights Reserved</p></div
+</body>
+</html>
